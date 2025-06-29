@@ -3,7 +3,8 @@
 
 #include <Arduino.h>
 
-class MyServo {
+class MyServo 
+{
   private:
     int servoPin;
 
@@ -14,3 +15,4 @@ class MyServo {
 };
 
 #endif
+

@@ -5,7 +5,8 @@
 #include <OneWire.h>
 #include <DallasTemperature.h>
 
-class TemperatureSensor {
+class TemperatureSensor 
+{
   private:
     uint8_t dataPin;
     OneWire oneWire;

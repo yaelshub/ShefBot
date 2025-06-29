@@ -3,7 +3,8 @@
 
 #include <Arduino.h>
 
-class WaterLevelSensor {
+class WaterLevelSensor 
+{
   private:
     uint8_t powerPin;
     uint8_t readPin;

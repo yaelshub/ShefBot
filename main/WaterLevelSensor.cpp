@@ -4,7 +4,9 @@
     : powerPin(power), readPin(sensor) {}
 
   void WaterLevelSensor::begin() {
-  pinMode(powerPin, OUTPUT);         
+    // כדכי לתת חשמל לחיישן הופך את הפין לפלט
+  pinMode(powerPin, OUTPUT); 
+  //מדליק את החיישן        
   digitalWrite(powerPin, HIGH);   
   }
 
